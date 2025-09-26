@@ -249,7 +249,7 @@ const XModal = ({ isOpen, onClose }) => {
     // 3. Phone Number Validation (must be exactly 10 digits)
     const phoneDigits = formData.phone.replace(/\D/g, ''); // Remove non-digits
     if (phoneDigits.length !== 10) {
-      alert("Invalid phone number. Please enter a 10-digit phone number.");
+      alert("Invalid phone number");
       return;
     }
 
