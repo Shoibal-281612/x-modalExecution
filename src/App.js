@@ -263,7 +263,7 @@ const XModal = ({ isOpen, onClose }) => {
 
     if (dobDate > today) {
       // NOTE: Using the exact alert message requested by the user, even though it refers to phone number
-      alert("Invalid phone number. Please enter a 10-digit phone number.");
+      alert("Invalid date of birth");
       return;
     }
 
