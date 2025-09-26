@@ -224,7 +224,6 @@ const XModal = ({ isOpen, onClose }) => {
 
     // 1. Required Field Validation
     if (!formData.username.trim()) {
-      alert("Please fill out the Username field.");
       return;
     }
     if (!formData.email.trim()) {
