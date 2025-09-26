@@ -228,15 +228,15 @@ const XModal = ({ isOpen, onClose }) => {
       return;
     }
     if (!formData.email.trim()) {
-      alert("Please fill out the Email field.");
+      alert("Invalid email");
       return;
     }
     if (!formData.dob.trim()) {
-      alert("Please fill out the Date of Birth field.");
+      alert("Invalid date of birth");
       return;
     }
     if (!formData.phone.trim()) {
-      alert("Please fill out the Phone Number field.");
+      alert("Invalid phone number.");
       return;
     }
 
